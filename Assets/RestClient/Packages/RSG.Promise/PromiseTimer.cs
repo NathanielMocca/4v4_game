@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace RSG
@@ -25,7 +25,7 @@ namespace RSG
     }
 
     /// <summary>
-    /// A class that wraps a pending promise with it's predicate and time data
+    /// A class that wraps a pending promise with it"s predicate and time data
     /// </summary>
     internal class PredicateWait
     {

@@ -68,7 +68,7 @@ public class uGUITools : MonoBehaviour {
 		MirrorVertically(false);
 	}
 	
-	[MenuItem("uGUI/Mirror Vertically Around Parent Center %\"")]
+	[MenuItem("uGUI/Mirror Vertically Around Parent Center %\'")]
 	static void MirrorVerticallyParent(){
 		MirrorVertically(true);
 	}

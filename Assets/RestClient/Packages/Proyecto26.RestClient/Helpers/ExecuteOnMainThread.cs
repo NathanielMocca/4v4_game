@@ -1,4 +1,4 @@
-#if NET_40
+﻿#if NET_40
 using System;
 using System.Collections;
 using System.Collections.Concurrent;
@@ -39,12 +39,12 @@ namespace Proyecto26.Helper
 
 #if NET_40
         /// <summary>
-        /// Store all instance of Action's and try to invoke them
+        /// Store all instance of Action"s and try to invoke them
         /// </summary>
         public static readonly ConcurrentQueue<Action> RunOnMainThread = new ConcurrentQueue<Action>();
 
         /// <summary>
-        /// Unity's Update method
+        /// Unity"s Update method
         /// </summary>
         void Update()
         {

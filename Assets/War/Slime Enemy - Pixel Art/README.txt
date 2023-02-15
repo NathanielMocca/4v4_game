@@ -1,6 +1,6 @@
-Hello! I'm War, thank you very much for purchasing my asset pack!
+﻿Hello! I"m War, thank you very much for purchasing my asset pack!
 
-I would love to see the project that you'll use my animations on! 
+I would love to see the project that you"ll use my animations on! 
 You can send them to my twitter, or instagram, @wars_vault.
 
 If you found the asset pack to your liking, consider leaving a review in the Asset Store!

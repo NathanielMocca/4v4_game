@@ -1,4 +1,4 @@
-	Documentation.
+﻿	Documentation.
 
 	Pixel Life Studio.
 
@@ -9,7 +9,7 @@
 
 	Feel free to contact us if you need any assistance with this asset, or to report a bug.
 
-	All files are ready to go and saved in their respective folders for you'r convinicence.
+	All files are ready to go and saved in their respective folders for you"r convinicence.
 	All Textures and Sprites saved in "Sprites Texture Folder".
 
 	If you dont want to have multiple objects/sprite renderers to a single card you can export the files to

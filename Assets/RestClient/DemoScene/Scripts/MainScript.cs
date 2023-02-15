@@ -24,7 +24,7 @@ public class MainScript : MonoBehaviour
         // We can add default request headers for all requests
         RestClient.DefaultRequestHeaders["Authorization"] = "Bearer ...";
 
-        RequestHelper requestOptions = null;
+        //RequestHelper requestOptions = null;
 
         RestClient.Get("http://192.168.1.105:8080").Then(response =>
         {

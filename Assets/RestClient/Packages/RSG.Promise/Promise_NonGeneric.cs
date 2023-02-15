@@ -1,4 +1,4 @@
-using RSG.Promises;
+﻿using RSG.Promises;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -280,7 +280,7 @@ namespace RSG
 
         /// <summary>
         /// Information about pending promises, useful for debugging.
-        /// This is only populated when 'EnablePromiseTracking' is set to true.
+        /// This is only populated when "EnablePromiseTracking" is set to true.
         /// </summary>
         public static IEnumerable<IPromiseInfo> GetPendingPromises()
         {

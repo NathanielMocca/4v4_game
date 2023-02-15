@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Mocca
@@ -33,12 +34,12 @@ namespace Mocca
 
         void playButtonOnClick()
         {
-            Debug.Log("You have clicked the button!");
+            Debug.Log("play btn clicked");
             PlayerPrefs.SetString("name", nameInput.text);
             Request.GetInstance().SetPath(uriInput.text);
 
             Debug.Log("[PlayerPref] name= " + PlayerPrefs.GetString("name"));
-            loadingOn();
+            LoadingOn();
             Request.GetInstance().Login(PlayerPrefs.GetString("name"), LoginCallback);
         }
         void optionButtonOnClick()
@@ -46,14 +47,14 @@ namespace Mocca
             Debug.Log("You have clicked the button!");
         }
 
-        public void loadingOn()
+        public void LoadingOn()
         {
             loading.SetActive(true);
             playButton.enabled = false;
             optionButton.enabled = false;
         }
 
-        public void loadingOff()
+        public void LoadingOff()
         {
             loading.SetActive(false);
             playButton.enabled = true;
@@ -62,9 +63,10 @@ namespace Mocca
 
         private void LoginCallback(bool isSuccess,string msg)
         {
-            loadingOff();
+            LoadingOff();
             //TODO
             //is success Go To Next Scene
+            SceneManager.LoadScene("Mobile-Game", LoadSceneMode.Single);
         }
     }
 }
